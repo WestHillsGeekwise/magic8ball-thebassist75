@@ -39,8 +39,10 @@ In your **script.js** file
 "<img src='http://planetoftheweb.com/i/8ball/1.png'>",
 "<img src='http://planetoftheweb.com/i/8ball/0.png'>"
 ```
-- Image to show when you first load the page (**hint** you can do this with css)
-`<img src='http://planetoftheweb.com/i/8ball/empty.png'>`
+- Image to show when you first load the page **hint**: you can do this with css
+```
+'http://planetoftheweb.com/i/8ball/empty.png'
+```
 
 ## Completing the assignment
 You will need to put your code on Github for review.
