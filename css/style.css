@@ -1,1 +1,51 @@
-/*use this file to style your project however you like*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: black;
+}
+
+main {
+  padding: 5px;
+}
+
+header img {
+  display: block;
+  width: 100%;
+  max-width: 1300px;
+  max-height: 350px;
+  box-shadow: 0 0 8px red;
+}
+
+label {
+  display: block;
+}
+
+label h1 {
+  text-align: center;
+  color: red;
+  text-shadow: 1px 1px 2px yellow;
+}
+
+input {
+  display: block;
+  margin-left: 450px;
+}
+
+button {
+  margin: 8px 0 0 580px;
+  padding: 3px;
+}
+
+#alter {
+  box-shadow: 0 0 4em red;
+  border-radius: 200px 200px 200px 200px;
+  background-image: linear-gradient(45deg, black 1%, red 6%, black 12%, red 50%, black 78%, red 100%);
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 50px 0 20px 420px;
+}

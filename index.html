@@ -1,15 +1,28 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!-- Adam Yates, 10/8/2016 -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Magic 8 Ball</title>
-
-  <!-- Custom CSS -->
+  <title>Defy The Eye | Magic 8 Ball</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" async></script>
 </head>
 <body>
-  <!-- add your html stuff here -->
 
-  <script src="js/script.js"></script>
+<header>
+  <img src="EyeLogo.jpg" alt="Logo" />
+</header>
+
+<main>
+
+    <label for="questions"><h1>The Eye knows much. Dare to ask it?</h1></label><br />
+    <input id="questions" type="text" size="45" autofocus/>
+    <button id="clear" onclick="picChange(); erase();">Eye Dare</button>
+
+    <div id="alter">
+    <img id="randomize" src="http://planetoftheweb.com/i/8ball/empty.png" alt="Image" width="400" height="400"/>
+    </div>
+
+</main>
+
 </body>
 </html>
