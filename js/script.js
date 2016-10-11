@@ -31,6 +31,7 @@ var images = ["http://planetoftheweb.com/i/8ball/19.png",
 // Erase Function
 function erase() {
   document.getElementById('questions').value = "";
+  document.getElementById('questions').focus();
 }
 
 // Debug Listeners
