@@ -24,13 +24,15 @@ var images = ["http://planetoftheweb.com/i/8ball/19.png",
 "http://planetoftheweb.com/i/8ball/0.png"];
 
   var change = images[Math.floor(Math.random() * images.length)];
+  var setFormer = document.getElementById('questions').value;
   document.getElementById('randomize').src = change;
-
+  document.getElementById('former').innerHTML = setFormer;
 }
 
 // Erase Function
 function erase() {
   document.getElementById('questions').value = "";
+  document.getElementById('questions').focus();
 }
 
 // Debug Listeners
